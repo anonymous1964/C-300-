@@ -1,0 +1,34 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            sbyte Sbyte=100;
+            byte Byte = 200;
+            char Char = '\u0061';
+            short Short = 30000;
+            ushort Ushort = 60000;
+            int Int = 2000000000;
+            uint Uint = 400000000;
+            long Long = 9000000000000000000;
+            ulong Ulong = 18000000000000000000;
+            Console.WriteLine("有符号字节型\t{0}",Sbyte);
+            Console.WriteLine("无符号字节型\t{0}",Byte);
+            Console.WriteLine("{0}",Char);
+            Console.WriteLine("{0}", Short);
+            Console.WriteLine("{0}",Ushort);
+            Console.WriteLine("{0}",Int);
+            Console.WriteLine("{0}",Uint);
+            Console.WriteLine("{0}", Long);
+            Console.WriteLine("{0}", Ulong);
+            Console.ReadLine();
+
+        }
+    }
+}
