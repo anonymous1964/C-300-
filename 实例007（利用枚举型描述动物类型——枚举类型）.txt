@@ -1,0 +1,32 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication
+{
+    class Program
+    {
+        enum Animal : byte
+        {
+              Dog=0,
+            Cat=1,
+            Mouse=2
+        }
+        
+        static void Main(string[] args)
+        {
+           Animal animal=Animal.Cat;
+            switch(animal)
+            {
+                case Animal.Cat:Console.WriteLine("√®");break;
+                    case Animal.Dog:Console.WriteLine("π∑");break;
+                    case  Animal.Mouse:Console.WriteLine("¿œ Û");break;
+                
+                
+            }
+            Console.ReadLine();
+
+        }
+    }
+}
